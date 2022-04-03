@@ -1,13 +1,21 @@
 import React from 'react'
 import Seo from '../components/seo'
 import '@fontsource/montserrat/500.css'
+import BackgroundImage from 'gatsby-background-image'
+import { graphql, useStaticQuery } from 'gatsby'
 
 export default function Index() {
   return (
     <>
     <div className="seo-title">
-      <Seo title="12 Cambridge" />
+      <Seo title="12 Cambridge" /> // Sets the title for SEO purposes
     </div>
+
+    <div className="background">
+      <BackgroundImage
+          
+    </div>
+
     <div className="main-text">
       <h1 style={{
         fontFamily: 'Montserrat, sans-serif',
