@@ -41,10 +41,6 @@ export default function Navbar() {
               letter-spacing: 0.1em;
               text-shadow: -2px -2px 5px #000;
             }
-            .navbar-components:hover {
-              background-color: #000;
-              color: #fff;
-            }
           `}
         </style>
 
