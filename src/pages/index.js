@@ -14,10 +14,6 @@ export default function Index() {
       <Navbar />
     </div>
 
-    <div className="background">
-      <img src='../images/homepageBG.jpg' />
-    </div>
-
     <div className="main-text">
       <h1 style={{
         fontFamily: 'Montserrat, sans-serif',

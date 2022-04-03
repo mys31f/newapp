@@ -7,6 +7,12 @@ export default function Navbar() {
     <div className="navbar">
         <style>
           {`
+            * {
+              box-sizing: border-box;
+              margin: 0;
+              padding: 0;
+            }
+
             .navbar {
               font-family: 'Montserrat, sans-serif';
               display: flex;
@@ -17,6 +23,15 @@ export default function Navbar() {
               text-align: center;
               margin: auto;
             }
+
+            .navbar-components ul {
+              list-style: none;
+              display: inline-block;
+              padding: 0px 20px;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+
             .navbar-components {
               font-size: 1.2rem;
               font-weight: 500;
@@ -26,7 +41,7 @@ export default function Navbar() {
               letter-spacing: 0.1em;
               text-shadow: -2px -2px 5px #000;
             }
-            .navbar-link:hover {
+            .navbar-components:hover {
               background-color: #000;
               color: #fff;
             }
@@ -34,10 +49,10 @@ export default function Navbar() {
         </style>
 
         <div className="navbar-components">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/students">Students</Link>
-          <Link to="/teachers">Teachers</Link>
+          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/" >Home</Link></ul>
+          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/about" >About</Link></ul>
+          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/students" >Students</Link></ul>
+          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/teachers" >Teachers</Link></ul>
         </div>
     </div>
   )
