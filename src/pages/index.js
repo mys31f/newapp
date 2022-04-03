@@ -1,19 +1,22 @@
 import React from 'react'
 import Seo from '../components/seo'
 import '@fontsource/montserrat/500.css'
-import BackgroundImage from 'gatsby-background-image'
-import { graphql, useStaticQuery } from 'gatsby'
+import BackgroundRequest from '../components/image-index'
+import Navbar from '../components/navbar'
 
 export default function Index() {
   return (
     <>
     <div className="seo-title">
-      <Seo title="12 Cambridge" /> // Sets the title for SEO purposes
+      <Seo title="12 Cambridge" /> 
+    </div>
+
+    <div className="navbar">
+      <Navbar />
     </div>
 
     <div className="background">
-      <BackgroundImage
-          
+      <BackgroundRequest />
     </div>
 
     <div className="main-text">
@@ -29,7 +32,8 @@ export default function Index() {
         textTransform: 'uppercase',
         letterSpacing: '0.1em',
         textShadow: '-2px -2px 5px #000',
-      }}>12 Cambridge</h1>
+      }}>
+        12 Cambridge</h1>
     </div>
     </>
   )
