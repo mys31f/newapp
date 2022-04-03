@@ -1,7 +1,6 @@
 import React from 'react'
 import Seo from '../components/seo'
 import '@fontsource/montserrat/500.css'
-import BackgroundRequest from '../components/image-index'
 import Navbar from '../components/navbar'
 
 export default function Index() {
@@ -16,7 +15,7 @@ export default function Index() {
     </div>
 
     <div className="background">
-      <BackgroundRequest />
+      <img src='../images/homepageBG.jpg' />
     </div>
 
     <div className="main-text">
