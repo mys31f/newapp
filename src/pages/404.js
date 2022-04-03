@@ -1,4 +1,5 @@
 import React from 'react'
+import '../components/seo'
 
 export default function NotFoundPage() {
   return (
