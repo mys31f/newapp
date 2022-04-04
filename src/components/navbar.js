@@ -49,6 +49,9 @@ export default function Navbar() {
           <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/about" >About</Link></ul>
           <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/students" >Students</Link></ul>
           <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/teachers" >Teachers</Link></ul>
+          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/memories" >Memories</Link></ul>
+          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/activities" >Activities</Link></ul>
+          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="https://github.com/mys31f/newapp" >Source Code</Link></ul>
         </div>
     </div>
   )
