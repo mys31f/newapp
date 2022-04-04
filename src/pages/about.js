@@ -1,6 +1,7 @@
 import React from 'react'
 import '../components/seo'
 import Navbar from '../components/navbar'
+import '@fontsource/montserrat/500.css'
 
 export default function About() {
   return (
