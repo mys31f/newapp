@@ -113,7 +113,7 @@ export default function About() {
           nisi.
         </p>
         <img src='../images/about-us/about-us-2.jpg' alt='about-us-2' />
-      </div>
+      </div>          
     </div>
     </>
   )
