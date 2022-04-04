@@ -2,7 +2,6 @@ import React from 'react'
 import Seo from '../components/seo'
 
 // import images
-import img3 from '../images/students/3.png'
 import img1 from '../images/student/1.png'
 import img2 from '../images/student/2.png'
 import img3 from '../images/student/3.png'
