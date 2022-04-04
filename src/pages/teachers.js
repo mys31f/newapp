@@ -1,5 +1,6 @@
 import React from 'react'
 import Seo from '../components/seo'
+import Navbar from '../components/navbar'
 
 // import images
 import bgImage from '../images/background.jpg'
