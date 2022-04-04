@@ -35,6 +35,7 @@ export default function Teachers() {
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
+              background-attachment: fixed;
               width: 100%;
               height: 100%;
               position: absolute;
