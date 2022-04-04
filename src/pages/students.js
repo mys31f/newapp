@@ -2,35 +2,36 @@ import React from 'react'
 import Seo from '../components/seo'
 
 // import images
-import img1 from '../images/students/1.png'
-import img2 from '../images/students/2.png'
 import img3 from '../images/students/3.png'
-import img4 from '../images/students/4.png'
-import img5 from '../images/students/5.png'
-import img6 from '../images/students/6.png'
-import img7 from '../images/students/7.png'
-import img8 from '../images/students/8.png'
-import img9 from '../images/students/9.png'
-import img10 from '../images/students/10.png'
-import img11 from '../images/students/11.png'
-import img12 from '../images/students/12.png'
-import img13 from '../images/students/13.png'
-import img14 from '../images/students/14.png'
-import img15 from '../images/students/15.png'
-import img16 from '../images/students/16.png'
-import img17 from '../images/students/17.png'
-import img18 from '../images/students/18.png'
-import img19 from '../images/students/19.png'
-import img20 from '../images/students/20.png'
-import img21 from '../images/students/21.png'
-import img22 from '../images/students/22.png'
-import img23 from '../images/students/23.png'
+import img1 from '../images/student/1.png'
+import img2 from '../images/student/2.png'
+import img3 from '../images/student/3.png'
+import img4 from '../images/student/4.png'
+import img5 from '../images/student/5.png'
+import img6 from '../images/student/6.png'
+import img7 from '../images/student/7.png'
+import img8 from '../images/student/8.png'
+import img9 from '../images/student/9.png'
+import img10 from '../images/student/10.png'
+import img11 from '../images/student/11.png'
+import img12 from '../images/student/12.png'
+import img13 from '../images/student/13.png'
+import img14 from '../images/student/14.png'
+import img15 from '../images/student/15.png'
+import img16 from '../images/student/16.png'
+import img17 from '../images/student/17.png'
+import img18 from '../images/student/18.png'
+import img19 from '../images/student/19.png'
+import img20 from '../images/student/20.png'
+import img21 from '../images/student/21.png'
+import img22 from '../images/student/22.png'
+import img23 from '../images/student/23.png'
 
-export default function Students() {
+export default function student() {
   return (
     <><>
       <div className="seo-title">
-        <Seo title="Students" />
+        <Seo title="student" />
       </div>
     </><>
         <div className='image-grid'>
