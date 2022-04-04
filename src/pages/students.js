@@ -1,7 +1,9 @@
 import React from 'react'
 import Seo from '../components/seo'
+import Navbar from '../components/navbar'
 
 // import images
+import bgImage from '../images/background.jpg'
 import img1 from '../images/student/1.png'
 import img2 from '../images/student/2.png'
 import img3 from '../images/student/3.png'
@@ -28,113 +30,140 @@ import img23 from '../images/student/23.png'
 
 export default function student() {
   return (
-    <><>
-      <div className="seo-title">
-        <Seo title="student" />
+    <>
+    <div className="seo-title">
+      <Seo title="student" />
+    </div>
+    
+    <div className="background">
+      <div className="background-image">
+        <style>
+        {
+          `.background-image {
+            background-image: url(${bgImage});
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+          }`
+        }
+        </style>
       </div>
-    </><>
-        <div className='image-grid'>
-          <div className='image-grid-item'>
-            <img src={ img1 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img2 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img3 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img4 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img5 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img6 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img7 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img8 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img9 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img10 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img11 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img12 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img13 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img14 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img15 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img16 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img17 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img18 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img19 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img20 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img21 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img22 } />
-          </div>
-          <div className='image-grid-item'>
-            <img src={ img23 } />
-          </div>
-        </div>
-
-        <div className="styles">
-          <style> {`
-        .image-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-          grid-gap: 20px;
-          margin: 0 auto;
-          padding: 0;
-          width: 100%;
-        }
-        .image-grid-item {
-          display: block;
-          margin: 0 auto;
-          padding: 0;
-          width: 100%;
-        }
-        .image-grid-item img {
-          display: block;
-          margin: 0 auto;
-          padding: 0;
-          width: 100%;
-        }
-        .styles {
-          display: block;
-          margin: 0 auto;
-          padding: 0;
-          width: 100%;
-        }
-      `}</style>
-        </div>
-      </></>
+    </div>
+    
+    <div className="navbar">
+      <Navbar />
+    </div>
+    
+    <div className='image-grid'>
+      <div className='image-grid-item'>
+        <img src={ img1 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img2 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img3 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img4 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img5 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img6 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img7 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img8 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img9 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img10 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img11 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img12 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img13 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img14 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img15 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img16 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img17 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img18 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img19 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img20 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img21 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img22 } />
+      </div>
+      <div className='image-grid-item'>
+        <img src={ img23 } />
+      </div>
+    </div>
+    
+    <div className="styles">
+      <style> {`
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+      }
+      .image-grid-item {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+      }
+      .image-grid-item img {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+      }
+      .styles {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+      }
+      `}
+      </style>
+    </div>
+    </>
   )
 }
+  
