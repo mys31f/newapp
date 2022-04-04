@@ -59,6 +59,24 @@ export default function student() {
     <div className="navbar">
       <Navbar />
     </div>
+
+    <div className="header-text">
+      <h1 style={{
+        fontFamily: 'Montserrat, sans-serif',
+        fontSize: '24px',
+        fontWeight: '500',
+        lineHeight: '1.5',
+        color: 'coral',
+        margin: '0',
+        padding: '0',
+        textAlign: 'center',
+        textTransform: 'uppercase',
+        letterSpacing: '0.1em',
+        textShadow: '-2px -2px 5px #000',
+      }}>
+        Students
+      </h1>
+    </div>
     
     <div className='image-grid'>
       <div className='image-grid-item'>

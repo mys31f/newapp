@@ -14,7 +14,7 @@ export default function Navbar() {
             }
 
             .navbar {
-              font-family: 'Montserrat, sans-serif';
+              font-family: 'Montserrat', sans-serif;
               display: flex;
               justify-content: space-between;
               align-items: center;
@@ -45,13 +45,13 @@ export default function Navbar() {
         </style>
 
         <div className="navbar-components">
-          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/" >Home</Link></ul>
-          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/about" >About</Link></ul>
-          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/students" >Students</Link></ul>
-          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/teachers" >Teachers</Link></ul>
-          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/memories" >Memories</Link></ul>
-          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="/activities" >Activities</Link></ul>
-          <ul style={{ fontDecoration: 'none', color: 'coral', }}><Link to="https://github.com/mys31f/newapp" >Source Code</Link></ul>
+          <ul style={{ textDecoration: 'none', color: 'coral', }}><Link to="/" >Home</Link></ul>
+          <ul style={{ textDecoration: 'none', color: 'coral', }}><Link to="/about" >About</Link></ul>
+          <ul style={{ textDecoration: 'none', color: 'coral', }}><Link to="/students" >Students</Link></ul>
+          <ul style={{ textDecoration: 'none', color: 'coral', }}><Link to="/teachers" >Teachers</Link></ul>
+          <ul style={{ textDecoration: 'none', color: 'coral', }}><Link to="/memories" >Memories</Link></ul>
+          <ul style={{ textDecoration: 'none', color: 'coral', }}><Link to="/activities" >Activities</Link></ul>
+          <ul style={{ textDecoration: 'none', color: 'coral', }}><Link to="https://github.com/mys31f/newapp" >Source Code</Link></ul>
         </div>
     </div>
   )

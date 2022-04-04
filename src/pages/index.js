@@ -2,6 +2,7 @@ import React from 'react'
 import Seo from '../components/seo'
 import '@fontsource/montserrat/500.css'
 import Navbar from '../components/navbar'
+import bgImage from '../images/homepageBG.jpg'
 
 export default function Index() {
   return (
@@ -14,6 +15,27 @@ export default function Index() {
       <Navbar />
     </div>
 
+    <div className="background">
+      <div className="background-image">
+        <style>
+          {
+            `.background-image {
+              background-image: url(${bgImage});
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+            }`
+          }
+        </style>
+      </div>
+    </div>
+    
     <div className="main-text">
       <h1 style={{
         fontFamily: 'Montserrat, sans-serif',
