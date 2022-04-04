@@ -6,10 +6,6 @@ import '@fontsource/montserrat/500.css'
 export default function About() {
   return (
     <>
-    <div className="seo-title">
-      <Seo title="About Us" />
-    </div>
-
     <div className="navbar">
       <Navbar />
     </div>
